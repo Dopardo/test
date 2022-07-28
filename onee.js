@@ -26,11 +26,11 @@ async function $require(url) {
   Function(js)();
 }
 
-let uBababot = {
+let uUwUbot = {
   cImport: $import,
   jRequire: $require,
 };
-window["uBababot"] = uBababot;
+window["uUwUbot"] = uUwUbot;
 
 Function.prototype.clone = function() {
     var that = this;
