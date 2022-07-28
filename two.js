@@ -1,6 +1,6 @@
 /**
- * @description WebSocket backport of Bababot
- * @author @bababoyisnotapopularname
+ * @description WebSocket backport of UwUbot
+ * @author @UwUboyisnotapopularname
  */
 (function () {
     const palette = {
@@ -122,7 +122,7 @@
                         }
                     }
                 })
-                Object.defineProperty(window, "BababotWS", {
+                Object.defineProperty(window, "UwUbotWS", {
                     value: this,
                 });
             }
