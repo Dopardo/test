@@ -18,9 +18,6 @@ async function $import(url) {
   addCss(css);
 }
 
-/**
- * @param {string} url
- */
 async function $require(url) {
   let js = await fetch(url).then((x) => x.text());
   Function(js)();
